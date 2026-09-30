@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrangeHRM_Suite" class="navigator-link">
+              <span class="suite-name border-failed">OrangeHRM Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrangeHRM_Suite" class="navigator-link ">
+                    <span>C:\Users\10861197\IdeaProjects\OrangeHRM\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrangeHRM_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrangeHRM_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrangeHRM_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrangeHRM_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrangeHRM_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrangeHRM_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 4 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeHRM_Suite" class="hide-methods failed suite-OrangeHRM_Suite"> (hide)</a> <!-- hide-methods failed suite-OrangeHRM_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Suite" class="show-methods failed suite-OrangeHRM_Suite"> (show)</a> <!-- show-methods failed suite-OrangeHRM_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-OrangeHRM_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Myactions">Myactions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Title_Validation">Title_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Todolist">Todolist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="URL_Validation">URL_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeHRM_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRM_Suite" class="hide-methods passed suite-OrangeHRM_Suite"> (hide)</a> <!-- hide-methods passed suite-OrangeHRM_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Suite" class="show-methods passed suite-OrangeHRM_Suite"> (show)</a> <!-- show-methods passed suite-OrangeHRM_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRM_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Both_Error_Validation">Both_Error_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Clickoptions">Clickoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Clickoptions">Clickoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Clickoptions">Clickoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Dashboardpage_Validations" class="method navigator-link" hash-for-method="Clickoptions">Clickoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Forget_Password_Validation">Forget_Password_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Heading_Validation">Heading_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Login_Navigation">Login_Navigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Password_Error_Validation">Password_Error_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Password_Label_Validation">Password_Label_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Password_Placeholder_Validation">Password_Placeholder_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Username_Error_Validation">Username_Error_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Username_Label_Validation">Username_Label_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Suite" title="org.Validations.Loginpage_Validations" class="method navigator-link" hash-for-method="Username_Placeholder_Validation">Username_Placeholder_Validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRM_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM_Suite" class="panel OrangeHRM_Suite">
+          <div class="suite-OrangeHRM_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.Validations.Dashboardpage_Validations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Myactions">
+                  </a> <!-- Myactions -->
+                  <span class="method-name">Myactions</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [My Actions
+No Pending Actions to Perform] but found [My actions]
+	at org.Validations.Dashboardpage_Validations.Myactions(Dashboardpage_Validations.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Todolist">
+                  </a> <!-- Todolist -->
+                  <span class="method-name">Todolist</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method org.Validations.Dashboardpage_Validations.Todolist() didn&apos;t finish within the time-out 1000
+	at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:223)
+	at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1885)
+	at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4364)
+	at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:4310)
+	at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1919)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:418)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:440)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:434)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.iterator(Unknown Source)
+	at org.Validations.Dashboardpage_Validations.Todolist(Dashboardpage_Validations.java:39)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.Validations.Loginpage_Validations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Title_Validation">
+                  </a> <!-- Title_Validation -->
+                  <span class="method-name">Title_Validation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Password] but found [Username],
+	expected [Password] but found [Username]
+	at org.Validations.Loginpage_Validations.Title_Validation(Loginpage_Validations.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="URL_Validation">
+                  </a> <!-- URL_Validation -->
+                  <span class="method-name">URL_Validation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Password] but found [Username],
+	expected [Password] but found [Username],
+	URL validation Failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login] but found [https://opensource-demo.orangehrmlive.com/]
+	at org.Validations.Loginpage_Validations.URL_Validation(Loginpage_Validations.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Validations.Dashboardpage_Validations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clickoptions">
+                  </a> <!-- Clickoptions -->
+                  <span class="method-name">Clickoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clickoptions">
+                  </a> <!-- Clickoptions -->
+                  <span class="method-name">Clickoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clickoptions">
+                  </a> <!-- Clickoptions -->
+                  <span class="method-name">Clickoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clickoptions">
+                  </a> <!-- Clickoptions -->
+                  <span class="method-name">Clickoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Validations.Loginpage_Validations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Both_Error_Validation">
+                  </a> <!-- Both_Error_Validation -->
+                  <span class="method-name">Both_Error_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Forget_Password_Validation">
+                  </a> <!-- Forget_Password_Validation -->
+                  <span class="method-name">Forget_Password_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading_Validation">
+                  </a> <!-- Heading_Validation -->
+                  <span class="method-name">Heading_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Navigation">
+                  </a> <!-- Login_Navigation -->
+                  <span class="method-name">Login_Navigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_Error_Validation">
+                  </a> <!-- Password_Error_Validation -->
+                  <span class="method-name">Password_Error_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_Label_Validation">
+                  </a> <!-- Password_Label_Validation -->
+                  <span class="method-name">Password_Label_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_Placeholder_Validation">
+                  </a> <!-- Password_Placeholder_Validation -->
+                  <span class="method-name">Password_Placeholder_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Username_Error_Validation">
+                  </a> <!-- Username_Error_Validation -->
+                  <span class="method-name">Username_Error_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Username_Label_Validation">
+                  </a> <!-- Username_Label_Validation -->
+                  <span class="method-name">Username_Label_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Username_Placeholder_Validation">
+                  </a> <!-- Username_Placeholder_Validation -->
+                  <span class="method-name">Username_Placeholder_Validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Suite-class-passed -->
+        </div> <!-- panel OrangeHRM_Suite -->
+        <div panel-name="test-xml-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\10861197\IdeaProjects\OrangeHRM\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRM Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.Validations.Loginpage_Validations&quot;/&gt;
+      &lt;class name=&quot;org.Validations.Dashboardpage_Validations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Test --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM_Suite');
+function tableData_OrangeHRM_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Clickoptions')
+data.setCell(0, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(0, 3, 4426);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Clickoptions')
+data.setCell(1, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(1, 3, 4400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Clickoptions')
+data.setCell(2, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(2, 3, 4155);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Clickoptions')
+data.setCell(3, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(3, 3, 4140);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Myactions')
+data.setCell(4, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(4, 3, 2610);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Login_Navigation')
+data.setCell(5, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(5, 3, 1824);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Todolist')
+data.setCell(6, 2, 'org.Validations.Dashboardpage_Validations')
+data.setCell(6, 3, 1017);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Username_Label_Validation')
+data.setCell(7, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(7, 3, 888);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Password_Label_Validation')
+data.setCell(8, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(8, 3, 810);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Username_Placeholder_Validation')
+data.setCell(9, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(9, 3, 616);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Both_Error_Validation')
+data.setCell(10, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(10, 3, 604);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Password_Error_Validation')
+data.setCell(11, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(11, 3, 531);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Heading_Validation')
+data.setCell(12, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(12, 3, 525);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Username_Error_Validation')
+data.setCell(13, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(13, 3, 503);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Password_Placeholder_Validation')
+data.setCell(14, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(14, 3, 353);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Forget_Password_Validation')
+data.setCell(15, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(15, 3, 347);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'URL_Validation')
+data.setCell(16, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(16, 3, 9);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Title_Validation')
+data.setCell(17, 2, 'org.Validations.Loginpage_Validations')
+data.setCell(17, 3, 8);
+window.suiteTableData['OrangeHRM_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRM_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-OrangeHRM_Suite">
+              </div> <!-- times-div-OrangeHRM_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Validations.Loginpage_Validations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Both_Error_Validation</span>
+                <span class="method-start">5477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">6085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">6390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Forget_Password_Validation</span>
+                <span class="method-start">11106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">11454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">11677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Heading_Validation</span>
+                <span class="method-start">16881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">17407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">17677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_Navigation</span>
+                <span class="method-start">22656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">24481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">24671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Password_Error_Validation</span>
+                <span class="method-start">29590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">30121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">30311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Password_Label_Validation</span>
+                <span class="method-start">35408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">36219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">36483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Password_Placeholder_Validation</span>
+                <span class="method-start">42252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">42606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">42881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Title_Validation</span>
+                <span class="method-start">47788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">47802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">48029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">URL_Validation</span>
+                <span class="method-start">52750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">52761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">53034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Username_Error_Validation</span>
+                <span class="method-start">57646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">58149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">58379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Username_Label_Validation</span>
+                <span class="method-start">63233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">64122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">64295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Username_Placeholder_Validation</span>
+                <span class="method-start">69418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">70034 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Validations.Dashboardpage_Validations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">70228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Clickoptions</span>
+                <span class="method-start">76224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">80380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">80557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Clickoptions</span>
+                <span class="method-start">85186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">89612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">89857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Clickoptions</span>
+                <span class="method-start">94972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">99112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">99332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Clickoptions</span>
+                <span class="method-start">105043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">109444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">109662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Myactions</span>
+                <span class="method-start">115477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">118088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">118308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Todolist</span>
+                <span class="method-start">123140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">124158 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
